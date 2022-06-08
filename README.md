@@ -26,7 +26,7 @@
 Install the plugin inside your serverless project with npm.
 
 ```sh
-$ npm i -D serverless-dart
+$ npm i -D @amondnet/serverless-dart@0.0.2-beta.9
 ```
 
 💡 The `-D` flag adds it to your development dependencies in npm speak
@@ -43,7 +43,7 @@ provider:
 plugins:
   # this registers the plugin
   # with serverless
-  - serverless-dart
+  - '@amondnet/serverless-dart'
 # creates one artifact for each function
 package:
   individually: true
